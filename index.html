@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/icons.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    
+    <header class="header">
+        <div class="header__top">
+            <a class="header__top-link" href="tel:0326060393"><i class="fas fa-phone"></i> (03260)6-03-93</a>
+            <a class="header__top-link" href="mailto:nvk_morshyn@ukr.net"><i class="fas fa-envelope"></i> nvk_morshyn@ukr.net</a>
+        </div>
+        <div class="header__bottom">
+            <a class="logo-link" href="#"><div class="logo_inner">НВК «СЕРЕДНЯ ЗАГАЛЬНООСВІТНЯ</div> ШКОЛА-ЛІЦЕЙ» М.МОРШИНА</a>
+            <nav class="menu">
+                <button class="menu__btn" onclick="openMenu()">
+                    <span class="menu__line"></span>
+                    <span class="menu__line"></span>
+                    <span class="menu__line"></span>
+                </button>
+                <ul class="menu__list">
+                    <li class="menu_item"><a href="#" class="menu_link" title="Про школу"><span class="span_inner">Про школу</span></a>
+                            <ul class="menu_inner">
+                                <li class="menu_inner_list"><a href="about_/1_history_1.html">Історія школи</a></li>   
+                                <li class="menu_inner_list"><a href="about_/1_mission_2.html">Місія, бачення, стратегія</a></li>
+                                <li class="menu_inner_list"><a href="about_/1_achives_3.html">Досягнення</a></li>
+                                <li class="menu_inner_list"><a href="about_/1_collective_4.html">Склад шкільного колективу</a></li>
+                                <li class="menu_inner_list"><a href="about_/1_infrastructure_5.html">Інфраструктура та віртуальний тур</a></li>
+                                <li class="menu_inner_list"><a href="about_/1_network_6.html">Мережа навчального закладу</a></li>
+                                <li class="menu_inner_list"><a href="about_/1_schedule_7.html">Графік прийому громадян</a></li>
+                                <li class="menu_inner_list"><a href="about_/1_budget_8.html">Бюджет школи. Вакансії</a></li>
+                                <li class="menu_inner_list"><a href="about_/1_contact_9.html">Контакти</a></li>                      
+                            </ul>
+                            </li>
+                            
+                    <li class="menu_item"><a href="#" class="menu_link"><span class="span_inner">Учням</span></a>
+                                <ul class="menu_inner">
+                                <li class="menu_inner_list"><a href="for_pupils/2_assessment_1.html">Оцінювання учбових досягнень</a></li>
+                                <li class="menu_inner_list"><a href="for_pupils/2_library_2.html">Бібліотека</a></li>
+                                <li class="menu_inner_list"><a href="for_pupils/2_work_3.html">Наукова робота</a></li>
+                                <li class="menu_inner_list"><a href="for_pupils/2_inclusive_eductaion_4.html">Інклюзивна форма навчання</a></li>
+                                <li class="menu_inner_list"><a href="for_pupils/2_certification_5.html">Атестація та ЗНО</a></li>
+                                <li class="menu_inner_list"><a href="for_pupils/2_electives_6.html">Факультативи, спецкурси, гуртки</a></li>
+                                <li class="menu_inner_list"><a href="for_pupils/2_sports_7.html">Спорт та фізичний розвиток</a></li>
+                                <li class="menu_inner_list"><a href="for_pupils/2_municipality_8.html">Учнівське самоврядування</a></li>
+                                <li class="menu_inner_list"><a href="for_pupils/2_board_of_honor_9.html">Дошка пошани</a></li>
+                                </ul>
+                            </li>
+                            
+                                <li class="menu_item"><a href="#" class="menu_link"><span class="span_inner">Батькам</span></a>
+                                <ul class="menu_inner">
+                                <li class="menu_inner_list"><a href="for_parents_/preparation.html">Підготовка до школи</a></li>
+                                <li class="menu_inner_list"><a href="for_parents_/conditions.html">Умови прийому</a></li>
+                                <li class="menu_inner_list"><a href="for_parents_/prices.html">Ціни на навчання</a></li>
+                                <li class="menu_inner_list"><a href="for_parents_/group.html">Група продовженого дня</a></li>
+                                <li class="menu_inner_list"><a href="for_parents_/advice.html">Поради психолога</a></li>
+                                <li class="menu_inner_list"><a href="for_parents_/fees.html">Батьківські збори</a></li>
+                                <li class="menu_inner_list"><a href="for_parents_/council.html">Рада школи</a></li>
+                                </ul>
+                            </li>
+                            
+                                <li class="menu_item"><a href="#" class="menu_link"><span class="span_inner">Випускникам</span></a>
+                                <ul class="menu_inner">
+                                <li class="menu_inner_list"><a href="for_graduets_/meets.html">Зустрічі випускників</a></li>
+                                <li class="menu_inner_list"><a href="for_graduets_/proud.html">Ними пишаються</a></li>
+                                <li class="menu_inner_list"><a href="for_graduets_/graduets.html">Випускники</a></li>
+                                </ul>
+                            </li>
+                            
+                                <li class="menu_item"><a href="#" class="menu_link"><span class="span_inner">Життя школи</span></a>
+                                <ul class="menu_inner">
+                                <li class="menu_inner_list"><a href="school_life_/holy.html">Свята та пам'ятні дати</a></li>
+                                <li class="menu_inner_list"><a href="school_life_/competitions.html">Конкурси та олімпіади</a></li>
+                                <li class="menu_inner_list"><a href="school_life_/thematic_events.html">Тематичні заходи</a></li>
+                                <li class="menu_inner_list"><a href="school_life_/newspaper.html">Газета</a></li>
+                                <li class="menu_inner_list"><a href="school_life_/educational_events.html">Виховні заходи</a></li>
+                                <li class="menu_inner_list"><a href="school_life_/creative_teams.html">Творчі колективи та команди</a></li>
+                                <li class="menu_inner_list"><a href="school_life_/travel.html">Подорожі і табори</a></li>                      
+                                </ul>
+                            </li>
+                            
+                                <li class="menu_item"><a href="#" class="menu_link"><span class="span_inner">Галереї та документи</span></a>
+                                <ul class="menu_inner">
+                                <li class="menu_inner_list"><a href="gallery_and_documents_/photo.html">Фото</a></li>
+                                <li class="menu_inner_list"><a href="gallery_and_documents_/video.html">Відео</a></li>
+                                <li class="menu_inner_list"><a href="gallery_and_documents_/archieve.html">Файловий архів</a></li>
+                                </ul>
+                            </li>
+                            
+                                <li class="menu_item"><a href="#" class="menu_link"><span class="span_inner">Тести</span></a>
+                                <ul class="menu_inner">
+
+                                </ul>
+                            </li>
+                            
+                                <li class="menu_item"><a href="#" class="menu_link"><span class="span_inner">Спілкування</span></a>
+                                <ul class="menu_inner speak">
+                                <li class="menu_inner_list"><a href="communication_/communication.html">Спілкування</a></li>
+                                <li class="menu_inner_list"><a href="communication_/form.html">Форма зворотнього зв'язку</a></li>
+                                <li class="menu_inner_list"><a href="communication_/question.html">Питання? Відповідь!</a></li>
+                                <li class="menu_inner_list"><a href="communication_/quest.html">Гостьова книга</a></li>
+                                <li class="menu_inner_list"><a href="communication_/chat.html">Чат</a></li>
+                                <li class="menu_inner_list"><a href="communication_/forum.html">Форум</a></li>
+                                </ul>
+                            </li>
+                            
+                        </ul>
+            </nav>
+        </div>
+    </header>
+    
+    
+    <section class="slider">
+        <div class="slider__inner">
+            <div class="slider__photo"><img class="slider__img" src="images/slider1.jpg"></div>
+            <div class="slider__photo"><img class="slider__img" src="images/slider2.jpg"></div>
+            <div class="slider__photo"><img class="slider__img" src="images/slider3.jpg"></div>
+            <div class="slider__photo"><img class="slider__img" src="images/slider4.jpg"></div>
+        </div>
+    </section>
+    
+    
+    <section class="news">
+        <div class="news__container">
+                <h1 class="news__main">Новини</h1>
+        <div class="news__items">
+            <div class="news__item">
+               
+                    <div class="news_title">2021-12-07</div>
+                <div class="news_text"><b>7 грудня - Всесвітній день української хустки.</b></div>
+                    <div class="news_img"><img class="news_img_inner" src="images/news_1.jpg"></div>
+                    
+                    <div class="news_text_">7 грудня - Всесвітній день української хустки.</div>
+                
+            </div>
+            <div class="news__item">
+                
+                    <div class="news_title">2021-12-01</div>
+                 <div class="news_text"><b>Година спілкування "Вчимося бути чесними".</b></div>
+                    <div class="news_img"><img class="news_img_inner" src="images/news_2.jpg"></div>                           
+                   
+                    <div class="news_text_">Година спілкування "Вчимося бути чесними", 4-А клас, вчитель Воєвода М. Д.</div>
+                
+            </div>
+            <div class="news__item">
+                
+                    <div class="news_title">18.10.2021</div>
+                <div class="news_text"><b>«Краплинка доброти»</b></div>
+                    <div class="news_img"><img class="news_img_inner" src="images/news_3.jpg"></div>
+                    
+                    <div class="news_text_">Учні 6-б класу (класний керівник Мельник Г . Б.) взяли участь в акції "Краплинка доброти" і привітали жительку м. Моршина п. Лідію з днем народження.</div>
+               
+            </div>
+        
+        
+        </div>
+        
+        </div>
+    </section>
+    
+
+     <footer class="footer">
+                <div class="footer__container">
+                <div class="social">
+                <div class="social__inner">Ми у соц. мережах</div>
+                    <div class="social_icon">
+                    <a href="https://www.facebook.com/Моршинська-школа-ліцей-284309878869942" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                    <a href="news/?preview_title=school&preview_url=http%3A%2F%2Fmorshyn-nvk.lviv.sch.in.ua%2Frss"  target="_blank"><i class="fas fa-rss"></i></a>
+                    <a href="https://www.youtube.com/watch?v=TAbb2jkv0bw" target="_blank"><i class="fab fa-youtube"></i></a>
+                    </div>
+                
+         </div>
+            <div class="info">
+                <span class="info_inner">ОФІЦІЙНИЙ САЙТ НВК «СЕРЕДНЯ ЗАГАЛЬНООСВІТНЯ ШКОЛА-ЛІЦЕЙ» М.МОРШИНА</span><br><br><br>
+                82482, Львівська обл., м. Моршин, <br>вул. Л. Українки 36, <br>тел., факс (03260) 6-03-93,<br> E-mail: nvk_morshyn@ukr.net
+                
+                <a href="#" class="button_link"><div class="button">Бажаєте допомогти?</div></a>
+                
+                </div>
+                
+                
+                <div class="copyright_">Усі права застережено © 2021 НВК «Середня загальноосвітня школа-ліцей» м.Моршина </div>
+                
+                
+         </div>
+                
+            </footer>
+    
+    
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
